@@ -31,10 +31,12 @@ a {
 .navbar {
     display: flex; /* Các thẻ nằm ngang với nhau*/
     align-items: center;
+    padding: 38px; /* mt-50px */
 }
 
 .navbar ul {
     display: flex; /* Nếu xài inline-block sẽ có dấu cách => ảnh hướng tới khoảng cách*/
+    margin-left: 50px;
 }
 
 .navbar .action {

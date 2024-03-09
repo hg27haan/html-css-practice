@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root { /* Như hmlt {}*/
+    --primary-color: #0f1b4c;
+}
+
 html {
     font-size: 62,5%;
 }
@@ -28,7 +32,7 @@ a {
     display: inline-block;
     min-width: 98px;
     padding: 18px 16px;
-    background: #0f1b4c;
+    background: var(--primary-color);
     border-radius: 8px;
     font-weight: 500;
     font-size: 1.4rem;
@@ -75,7 +79,7 @@ a {
 .navbar .action-link {
     font-weight: 500px;
     font-size: 1.4rem;
-    color: #0f1b4c
+    color: var(--primary-color);
 }
 
 .navbar .action-btn {

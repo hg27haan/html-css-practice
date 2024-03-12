@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+:root { /* Như hmlt {}*/
+    --primary-color: #0f1b4c;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/*  Ctrl + / để tạo comment tự động đóng */
+
+/* Common */ 
+a {
+    text-decoration:  none; /* Bỏ gạch chân */
+}
+
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px); /*Khi thay đổi trình duyệt thì vẫn giữ nguyên việc dư 24px hai bên*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    padding: 18px 16px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* ==================== Header ==================== */
+.header {
+    position: relative;
+    background: #e6f0ff;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex; /* Các thẻ nằm ngang với nhau*/
+    align-items: center;
+    padding-top: 38px; /* mt-50px */
+}
+
+.navbar ul {
+    display: flex; /* Nếu xài inline-block sẽ có dấu cách => ảnh hướng tới khoảng cách*/
+    margin-left: 50px;
+}
+
+.navbar .action {
+    margin-left: auto;
+}
+
+.navbar ul a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #4f5361;
+    padding: 8px 14px;
+}
+
+.navbar ul a:hover {
+    text-decoration: underline;
+}
+
+.navbar .action-link {
+    font-weight: 500px;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.navbar .action-btn {
+    padding: 13px 16px;
+    margin-left: 14px
+}
+
+.hero {
+    margin-top: 130px;
+}
+
+.hero .info{
+    width: 51%;
+}
+
+.hero .sub-title{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687691;
+}
+
+.hero .title{
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.19;
+    color: #003360;
+}
+
+.hero .desc{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #5a6473;
+}
+
+.hero-cta {
+    min-width: 170px;
+    margin-top: 40px;
+}
+
+.hero-img{
+    position: absolute;
+    right: calc((100vw - 1110px) /2 - 100px);
+    bottom: 0;
+}
+

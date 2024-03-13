@@ -9,24 +9,42 @@ body {
     color: white;
     font-family: Tahoma;
     font-size: 16px;
-    text-align: center;
 }   
 
 h1 p {
     margin: 1em auto;
-}
-
-.inline {
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
+    text-align: center;
 }
 
 form {
-    
     margin: 0 auto;
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
     padding: 0 0 2em 0;
 }
+
+label {
+    padding: 0.5rem 0;
+    display: block;
+}
+
+input, textarea, select{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 2em;
+    color: #828282;
+}
+
+input, textarea{
+border: 1px solid #828282;
+color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    display: inline-flex;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+

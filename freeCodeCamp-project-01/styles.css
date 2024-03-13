@@ -12,15 +12,16 @@ body {
 }   
 
 h1 p {
-    margin: 1em auto;
-    text-align: center;
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
 }
 
 form {
+    background-color: #282848; ;
     margin: 0 auto;
     max-width: 500px;
     min-width: 300px;
-    width: 60vw;
+    width: 100vw;
     padding: 0 0 2em 0;
 }
 
@@ -42,6 +43,7 @@ color: #ffffff;
 }
 
 .inline {
+    display:flex
     width: unset;
     display: inline-flex;
     margin: 0 0.5em 0 0;

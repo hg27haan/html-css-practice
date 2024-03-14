@@ -43,16 +43,9 @@ input, textarea, select{
 }
 
 input, textarea{
-border: 1px solid #828282;
-color: #ffffff;
-}
-
-input {
+    border: 1px solid #828282;
+    color: #ffffff;
     border-radius: 5px;
-}
-
-.inline {
-    display: inline-block;
 }
 
 input[type="submit"] {

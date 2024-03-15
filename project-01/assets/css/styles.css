@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -131,3 +131,111 @@ a {
     bottom: 0;
 }
 
+
+/* ====== Clients ====== */
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between; /* Để phần tử con xa nhất có thể*/
+}
+
+.clients .desc{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #7D8589;
+}
+
+.clients .row-decs{
+    margin-top: 23px;
+}
+
+.clients .images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+
+/* ====== Guides ====== */
+.guides{
+    margin-top: 200px;
+}
+
+.guides .sub-title{
+    position: relative;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1; 
+    text-align: center;
+    color: #000339
+}
+
+.guides .sub-title::before{
+    position: absolute;
+    top: -10px;
+    content: "";
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+    left: 50%;
+    transform: translateX(-20px);
+}
+
+.guides .desc{
+    width: 459px;
+    max-width: 100%;
+    margin: 20px auto 0;
+    text-align: center;
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.88; /* 187.5% */
+}
+
+.list-guide{
+    display: flex;
+    justify-content: center; /*Căn giữa*/
+    margin-top: 70px;
+}
+
+.guide-item{
+    margin: 0 70px;
+    text-align: center;
+}
+
+.guide-item .title{
+    margin-top: 26px;
+    color: #3B3C45;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.1; /* 110% */
+}
+
+.guide-item .link{
+    display: inline-block;
+    margin-top: 10px;
+    color: #0689FF;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.guide-item .arrow{ 
+    margin-left: 6px;
+}
+
+.guide-cta{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-cta .btn{
+    min-width: 170px;
+}

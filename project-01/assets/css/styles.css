@@ -159,3 +159,43 @@ a {
     justify-content: space-between;
     margin-top: 96px;
 }
+
+
+/* ====== Guides ====== */
+.guides{
+    margin-top: 200px;
+}
+
+.guides .sub-title{
+    position: relative;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1; 
+    text-align: center;
+    color: #000339
+}
+
+.guides .sub-title::before{
+    position: absolute;
+    top: -10px;
+    content: "";
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+    left: 50%;
+    transform: translateX(-20px);
+}
+
+.guides .desc{
+    width: 750px;
+    max-width: 100%;
+    margin: 20px auto 0;
+    text-align: center;
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.88; /* 187.5% */
+}

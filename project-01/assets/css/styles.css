@@ -131,3 +131,31 @@ a {
     bottom: 0;
 }
 
+
+/* ====== Clients ====== */
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between; /* Để phần tử con xa nhất có thể*/
+}
+
+.clients .desc{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #7D8589;
+}
+
+.clients .row-decs{
+    margin-top: 23px;
+}
+
+.clients .images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 96px;
+}

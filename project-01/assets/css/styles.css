@@ -185,7 +185,7 @@ a {
     border-radius: 12px;
     background: #000339;
     left: 50%;
-    transform: translateX(-20px);
+    transform: translateX(-50%);
 }
 
 .guides .desc{

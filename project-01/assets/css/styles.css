@@ -240,3 +240,42 @@ a {
 .guide-cta .btn{
     min-width: 170px;
 }
+
+/* ====== Featured ====== */
+.featured {
+    margin-top: 230px;
+}
+
+.featured .sub-title{
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.featured .row{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured .desc{
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.88; /* 187.5% */
+}
+
+.featured .link{
+    display: flex;
+    align-items: center;
+    color: #0689FF;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.featured .link .arrow{
+    /* position: relative;
+    top: -2px */
+    margin-left: 8px;
+}

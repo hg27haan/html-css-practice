@@ -243,7 +243,9 @@ a {
 
 /* ====== Featured ====== */
 .featured {
-    margin-top: 230px;
+    margin-top: 120px;
+    padding: 110px 0;
+    background: #F5FAFE;
 }
 
 .featured .sub-title{
@@ -279,3 +281,65 @@ a {
     top: -2px */
     margin-left: 8px;
 }
+
+.featured .list {
+    display: flex; /*Ảnh nằm ngang*/
+    gap: 30px; /*Tao khoang cach*/
+    margin-top: 70px;
+}
+
+.featured .item{
+    flex: 1; /*Ảnh bằng theo chiều ngang*/
+    background: #FFFFFF;
+    border-radius: 12px;
+    /* overflow: hidden; Quyet dinh neu the con ra ngoai the cha se lam gi => it su dung */
+}
+
+.featured .item .thumb{
+    width: 100%;
+    height: 227px;
+    object-fit: cover; /*Giu dung ti le va vua khung hinh*/
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.featured .item .body{
+    padding: 17px 20px 24px;
+}
+
+.featured .item .title{
+    color: #000339;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.featured .item .desc{
+    margin-top: 11px;
+    color: #A3A6AB;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.featured .item .info{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.featured .item .icon{
+    margin-left: 23px;
+}
+
+.featured .item .icon:first-child{
+    margin-left: 0; /*Loai bo cai dau*/
+}
+.featured .item .label{
+    margin-left: 8px;
+    color: #444;
+    letter-spacing: 0.01em;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+

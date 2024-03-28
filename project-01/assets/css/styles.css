@@ -418,9 +418,43 @@ a {
 
 .stats-trend .separate{
     margin-top: 25px;
-    height: 1px;
+    height: 1.2px;
     background: #E9E9E9;
 }
+
+.stats .avatar-block{
+    margin-top: 26px;
+    gap: 16px 14px;
+    display: flex;
+    flex-wrap: wrap; /*Xuong hang khi gap wrap*/
+}
+
+.stats .avatar-group {
+    display: flex;
+}
+
+.stats .avatar {
+    display: flex;
+    align-items: center; /*Can giua chieu cao*/
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-left: -3px;
+    object-fit:cover;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: var(--bg-color, #FFF);
+    font-size: 0.7rem;
+    font-weight: 450;
+    /* line-height: 16px;
+    text-align: center;  => Truong hop khong co the Span => dua vao witd de viet line-height*/
+    letter-spacing: -0.02em;
+}
+
+.stats .avatar:first-child{
+    margin-left: 0;
+}
+
 
 .stats .img-block .image{
     display: block;
@@ -461,3 +495,21 @@ a {
     line-height: 1.88; /* 187.5% */
 }
 
+.stats .row-qty{
+    margin-top: 110px;
+    justify-content: space-between; /*Khi co flex thi justify-content se giup cac phan tu xa nhau ra*/
+    padding: 0 32px;
+}
+
+.stats .qty{
+    color: #000;
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+.stats .qty-desc{
+    margin-top: 24px;
+    color: #7B8087;
+    font-size: 1.8rem;
+    font-weight: 500;
+}

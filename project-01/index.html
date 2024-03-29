@@ -5,12 +5,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project 01</title>
+        <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css"> <!-- link:css-->
+
+        <!-- Embed fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css"> <!-- link:css-->
+        
+        <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/styles.css"> <!-- shift + alt + mũi tên xuống => copy xuống ; ctrl + space => gợi ý-->
     </head>
     <body>
-        <main style="height: 10000px"> <!-- Chứa bố cục của trang -->
+        <main> <!-- Chứa bố cục của trang -->
             <!-- Header -->
             <header class="header">
                 <div class="content"> <!-- .content là tự tạo thẻ div ; nav.navbar là tự tạo thẻ nav class navbar-->
@@ -301,7 +309,80 @@
             </div>
 
             <!-- Footer -->
-            footer.footer>.content>.row>.column*4>
+            <footer class="footer">
+                <div class="content">
+                    <div class="row row-top">
+                        <!-- Product column -->
+                        <div class="column">
+                            <h3 class="heading">Product</h3>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#!">Listing</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Property</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Agents</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Resources -->
+                        <div class="column">
+                            <h3 class="heading">Resources</h3>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#!">Our Homes</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Member Stories</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Video</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Free trial</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Company -->
+                        <div class="column">
+                            <h3 class="heading">Company</h3>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#!">Patnerships</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Terms of use</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Privacy</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!">Sitemap</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Get in touch -->
+                        <div class="column">
+                            <h3 class="heading">Get in touch</h3>
+                            <p class="desc">You’ll find your next home, in any style you prefer.</p>
+                            <div class="social">
+                                <a href="#!" class="social-link"> <!--Nhấn giữ phím ALT để chọn nhiều ô-->
+                                    <img src="./assets/css/img/social-icon.svg" alt="social icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-bottom">
+                        <img src="./assets/css/img/logo.svg" alt="Besnik" class="logo">
+                        <p class="copyright">Copyright 2020.com, All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
         </main>
     </body>
 </html>

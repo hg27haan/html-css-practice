@@ -22,6 +22,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px;
 }
 
 /*flex-direction property, which has four possible values:
@@ -32,7 +37,14 @@ column-reverse: vertical axis with flex items from bottom to top
 Note: The axes an*/
 
 .gallery img {
+    object-fit: cover;
     width: 100%;
     max-width: 350px;
     height: 300px;
+    border-radius: 10px;
+}
+
+.gallery::after {
+    content: "";
+    width: 350px;
 }

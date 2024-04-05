@@ -62,3 +62,8 @@ p {
     margin: 0;
 }
 
+.left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
